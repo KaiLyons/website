@@ -1,121 +1,221 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>
-            SafyreLyons
-        </title>
+        <meta charset="utf-8">
+        <title>Safyre Lyons</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+        <meta name ="description" content="Developer in Python, JavaScript, and somtimes Lua and others. I write code for fun and to one day learn how to help people with the power of a computer">
+        <meta name="og:title" content="Safyre Lyons">
+        <meta name="og:description" content="Programmer who uses Python, JavaScript, Lua and sometimes other things.">
+        <meta name="og:url" content="https://safyrelyons.com">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="icon" href="LOGO.png">
+        <script src="https://kit.fontawesome.com/7bb5e31ebd.js"></script>
         <style>
-        #main{
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            width: 100%;
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #292929;
+                color: white;
+            }
+            #outer{
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 3px;
+            }
+            #name img{
+                margin-top: 15%;
+            }
+            #name p{
+                font-size: 70px;
+                text-align: center;
+                
+                margin-bottom: 0px;
+                padding: 0px;
+            }
+
+            i {
+                font-size: 50px;
+            }
+             
+            #ico{
+                text-align: center;
+                width: 100%;
+                left:0px;
+            }
+
+             a{
+                color: white;
+            }
+
+            #ico li{
+                display: inline-block;
+                margin-right: 50px;
+                text-decoration: none;
+            }
+
+            #name h3{
+                font-weight: normal;
+                margin: 0px;
+                padding: 0px;
+                font-size: 20px;
+                text-align:center;
+            }
+
+            #projects{
+              margin-top: 300px;  
+            }
+
+            #projects h2{
+                font-size: 30px;
+            }
+
+            #projects h1{
+                font-size: 70px;
+            }
+        </style>
+        <style>
+        @media only screen 
+        and (max-device-width: 600px) {
+            #projects{
+              margin-top: 600px;  
+            }
+
+            #name img{
+                margin-top: 45%;
+            }
+            #name p{
+                font-size: 70px;
+                text-align: center;
+                margin-bottom: 0px;
+                padding: 0px;
+            }
         }
 
-        #content{
-            width: 44%;
-            float: left;
-        }
-
-        #nav a{
-            background-color: lightblue;
-            color: #252525;
-            padding: 5px;
-            border-radius: 20px;
-            text-decoration: none;
-        }
-
-        #nav li{
-            display: inline-block;
-        }
-
-        #nav{
-            background-color: #252525;
-            padding: 5px;
-        }
-
-        #news{
-            width: 35%;
-            float: right;
-        }
-
-        .tweets{
-            overflow: scroll;
-            height: 100%;
+        @media only screen and (min-device-width: 600px) and (max-device-width: 1000px){ 
+            #projects{
+              margin-top: 1000px;  
+            }
         }
         </style>
     </head>
     <body>
-        <div id="main">
-            <div id="nav">
+        <div id="outer">
+            <div id="name">
+                <img src="LOGO_transperent.png" width="10%" style="margin-left: auto; margin-right: auto; display: block">
+                <p>Safyre Lyons</p>
+                <h3>Back-end Developer</h3>
+            </div>
+            <div id="ico">
                 <ul>
-                    <li>
-                        <a href="https://www.twitter.com/moisturepackets" target="_blank">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="https://discord.gg/pKDckW9" target="_blank">Discord</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/SafyreLyons" target="_blank">GitHub</a>
-                    </li>
+                    <li id="first"><a href="https://github.com/SafyreLyons" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.twitch.tv/moisturepackets" target="_blank"><i class="fab fa-twitch"></i></a></li>
+                    <li><a href="https://www.twitter.com/SafyreL" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCWSkSw0u13GVy6R6WwXnAJw" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
-            <div id="content">
-                <h1>
-                    Welcome. I am Safyre Lyons.
-                </h1>
-                <p>
-                    I am known as Moisture Pakcets, I write code.
-                    <br>
-                     I know the following languages
-                    <ul>
-                        <li>
-                            Java
-                        </li>
-                        <li>
-                            JavaScript / Node.js
-                        </li>
-                        <li>
-                            C / C++
-                        </li>
-                        <li>
-                            HTML / CSS
-                        </li>
-                    </ul>
-                    I am also going to learn
-                    <ul>
-                        <li>
-                            F#
-                        </li>
-                        <li>
-                            Rust
-                        </li>
-                        <li>
-                            TypeScript
-                        </li>
-                        <li>
-                            Golang
-                        </li>
-                        <li>
-                            Ruby
-                        </li>
-                        <li>
-                            Swift
-                        </li>
-                        <li>
-                            SQL
-                        </li>
-                        <li>
-                            R
-                        </li>
-                    </ul>
-                    Be sure to look here and to the side because on the right has the news and twitter feed!
-                </p>
+            <div id="projects">
+                <h1>Main Projects:</h1>
+                <div id="kamojipy">
+                    <h2>Kamojipy</h2>
+                    <a href="https://github.com/SafyreLyons/kamojipy" target="_blank"><i class="fab fa-github"></i></a><br>
+                    <p>Install: </p><code>pip install kamojipy</code>
+                    <p>Usage: </p>
+                    <div style="background-color:#111111; padding: 5px; width: 15%">
+                        <code>
+                                import kamojipy as k
+                                <br><br>
+                                k.fy()
+                        </code>
+                    </div>
+                    <p>About the package: Based on <a href="https://github.com/owocean/kamojify" target="_blank">owocean's Kamojify</a> for Node.js</p>
+                </div>
+                <hr>
+                <div id="hewwwo">
+                    <h2>Hewwwo</h2>
+                    <a href="https://github.com/SafyreLyons/hewwwo" target="_blank"><i class="fab fa-github"></i></a>
+                    <p>Install: </p><code>pip install hewwwo</code>
+                    <p>Usage: </p>
+                    <div style="background-color:#111111; padding: 5px; width: 15%">
+                            <code>
+                                    import hewwwo
+                                    <br><br>
+                                    hewwwo("Wow what a lovely python module")
+                            </code>
+                        </div>
+                        <p>About the package: Based on: <a href="https://github.com/owocean/hewwwo" target="_blank">owocean's hewwwo</a> for Node.js</p>
+                </div>
+                <hr>
+                <div id="loruwu">
+                    <h2>Loruwu</h2>
+                    <a href="https://github.com/SafyreLyons/loruwu" target="_blank"><i class="fab fa-github"></i></a>
+<p>Install packages: </p>
+npm i hewwwo<br>
+                        </code>
+                            <code>npm i loremip</code><br>
+                    <p>Source: </p>
+                    <div style="background-color:#111111; padding: 5px; width: 15%">
+                        <code>
+                                //Get the packages
+                                var lorem = require("loremip");
+                                var hewwwo = require("hewwwo");
+                                
+                                //Get Array
+                                var a = ["this", "is", "my", "awesome", "array", "give", "me", "cuddles"];
+                                
+                                //Set Lorem variables
+                                var b = lorem.generate(a, 50);
+                                var c = lorem.ipsum(5);
+                                
+                                //Hewwwo time
+                                var h = hewwwo(b,c);
+                                
+                                //Console Log var h
+                                console.log(h); 
+                        </code>
+                    </div>
+                    <p>About the packages:<br>
+                        all node.js packages for this made by <a href="https://github.com/owocean">owocean</a>
+                        </p>
+                </div>
+                <hr>
+                <div id="mistakejs">
+                    <h2>Mistake.js</h2>
+                    <a href="https://github.com/SafyreLyons/mistake.js" target="_blank"><i class="fab fa-github"></i></a>
+                    <p>Required Packages: </p><code>npm i kamojify<br>
+                        </code>
+                            <code>npm i loremip</code><br>
+                            <code>
+                            npm i hewwwo</code><br>
+                        <p>Source code: </p>
+                    <div style="background-color:#111111; padding: 5px; width: 15%">
+                        <code>
+                            // Get the packages for this mistake
+                            var kamojify = require("kamojify");
+                            var hewwwo = require("hewwwo");
+                            var lorem = require("loremip");
+                            
+                            // Loremip array
+                            var a = ["cuddles", "snuggles", "hello", "greetings","licks", "orange", "red", "ready"];
+                            
+                            // Loremip generate
+                            var g = lorem.generate(a, 50);
+                            
+                            // Hewwwo
+                            var f = hewwwo(g);
+                            
+                            // Kamojify
+                            var str = f;
+                            var kf = kamojify(str);
+                            
+                            //Finish it all off
+                            console.log(kf)
+                        </code>
+                    </div>
+                    <p>About the packages:<br>
+                        all node.js packages for this made by <a href="https://github.com/owocean">owocean</a>
+                        </p>
+                </div>
             </div>
-            <div id="news">
-                    <a class="twitter-timeline twitter" href="https://twitter.com/moisturepackets?ref_src=twsrc%5Etfw">Tweets by moisturepackets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-        <a href="https://www.f6s.com/safyrelyons?follow=1" target="_blank" title="Follow Safyre Lyons on F6S"><img src="https://www.f6s.com/images/f6s-follow-white.png" border="0" width="78" height="22 " alt="Follow Safyre Lyons on F6S" style="width: 78px; height: 22px; padding: 0px; margin: 0px;" /></a>
         </div>
     </body>
 </html>
