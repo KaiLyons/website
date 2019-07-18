@@ -38,7 +38,11 @@
             i {
                 font-size: 50px;
             }
-             
+            
+            .comment{
+                color: green;
+            }
+            
             #ico{
                 text-align: center;
                 width: 100%;
@@ -48,13 +52,27 @@
              a{
                 color: white;
             }
-
+            
+            .var{
+                color: purple;   
+            }
+            
+            .func{
+             color: #e6dd43<span class="func">   
+            }
+            
             #ico li{
                 display: inline-block;
                 margin-right: 50px;
                 text-decoration: none;
             }
-
+            .pre{
+             color: #27b0b3   
+            }
+            .par{
+                color: lightblue;
+            }<span class="pre">
+            
             #name h3{
                 font-weight: normal;
                 margin: 0px;
@@ -174,22 +192,22 @@ npm i hewwwo<br>
                     <p>Source: </p>
                     <div class="code">
                         <code>
-                                //Get the packages
-                                var lorem = require("loremip");<br>
-                                var hewwwo = require("hewwwo");
+                            <span class="comement">//Get the packages</<br></span>
+                            <span class="var">var</span> lorem = <span class="func">require</span><span class="par">("loremip")</span>;<br>
+                            <span class="var">var</span> hewwwo = <span class="func">require</span><span class="par">("hewwwo")</span>;
                                 <br><br>
-                                //Get Array<br>
-                                var a = ["this", "is", "my", "awesome", "array", "give", "me", "cuddles"];
+                                <span class="comement">//Get Array<br>
+                                    <span class="var">var</span> a = ["this", "is", "my", "awesome", "array", "give", "me", "cuddles"];
                                 <br><br>
-                                //Set Lorem variables<br>
-                                var b = lorem.generate(a, 50);<br>
-                                var c = lorem.ipsum(5);
+                                    <span class="comement">//Set Lorem variables<br></span>
+                                    <span class="var">var</span> b = <span class="pre">lorem</span>.<span class="func">generate</span><span class="par">(a, 50)</span>;<br>
+                                    <span class="var">var</span> c = <span class="pre">lorem</span>.<span class="func">ipsum</span><span class="par">(5)</span>;
                                 <br><br>
-                                //Hewwwo time<br>
-                                var h = hewwwo(b,c);
+                                    <span class="comement">//Hewwwo time<br></span>
+                                    <span class="var">var</span> h = <span class="func">hewwwo</span><span class="par">(b,c)</span>;
                                 <br><br>
-                                //Console Log var h<br>
-                                console.log(h); 
+                                    <span class="comement">//Console Log var h<br></span>
+                                    <span class="pre">console</span>.<span class="func">log</span><span class="par">(h)</span>; 
                         </code>
                     </div>
                     <p>About the packages:<br>
@@ -208,26 +226,26 @@ npm i hewwwo<br>
                         <p>Source code: </p>
                     <div class="code">
                         <code>
-                            // Get the packages for this mistake
-                            var kamojify = require("kamojify");<br>
-                            var hewwwo = require("hewwwo");<br>
-                            var lorem = require("loremip");
+                            <span class="comement">// Get the packages for this mistake<br></span>
+                            <span class="var">var</span> kamojify = <span class="func">require</span><span class="par">("kamojify")</span>;<br>
+                            <span class="var">var</span> hewwwo = <span class="func">require</span><span class="par">("hewwwo")</span>;<br>
+                            <span class="var">var</span> lorem = <span class="func">require</span><span class="par">("loremip")</span>;
                             <br><br>
-                            // Loremip array
-                            var a = ["cuddles", "snuggles", "hello", "greetings","licks", "orange", "red", "ready"];
+                                <span class="comement">// Loremip array<br></span>
+                                <span class="var">var</span> a = ["cuddles", "snuggles", "hello", "greetings","licks", "orange", "red", "ready"];
                             <br><br>
-                            // Loremip generate
-                            var g = lorem.generate(a, 50);
+                                <span class="comement">// Loremip generate<br></span>
+                                <span class="var">var</span> g = <span class="pre">lorem</span>.<span class="func">generate</span><span class="par">(a, 50)</span>;
                             <br><br>
-                            // Hewwwo
-                            var f = hewwwo(g);
+                                <span class="comement">// Hewwwo<br></span>
+                            <span class="var">var</span> f = <span class="func">hewwwo</span><span class="par">(g)</span>;
                             <br><br>
-                            // Kamojify
-                            var str = f;<br>
-                            var kf = kamojify(str);
+                                <span class="comement">// Kamojify<br></span>
+                            <span class="var">var</span> str = f;<br></span>
+                            <span class="var">var</span> kf = <span class="func">kamojify</span><span class="par">(str)</span>;
                             <br><br>
-                            //Finish it all off
-                            console.log(kf)
+                                <span class="comement">//Finish it all off<br></span>
+                            <span class="pre">console</span>.<span class="func">log</span><span class="par">(kf)</span>
                         </code>
                     </div>
                     <p>About the packages:<br>
