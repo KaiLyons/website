@@ -74,7 +74,9 @@
             .par{
                 color: lightblue;
             }
-            
+            .str{
+                color:#ff8b42;
+            }
             #name h3{
                 font-weight: normal;
                 margin: 0px;
@@ -151,7 +153,34 @@
                 <div id="syntatical">
                     <h2>Syntatical</h2>
                     <a href="https://www.npmjs.com/package/syntatical" target="_blank"><i class="fab fa-npm"></i></a><p style="margin-right: 5px;"></p><a href="https://github.com/SafyreLyons/syntatical" target="_blank"><i class="fab fa-github"></i></a><br>
-                    <p>To view usage please visit <a href="https://www.npmjs.com/package/syntatical" target="_blank">this link</a>. Thank you.
+                    <div class="code">
+                      <code>
+                          <span class="var">var</span> s = <span class="func">require</span><span class="par">('syntatical');</span>
+                          <span class="var">var</span> e = <span class="arr">["one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve"];</span>
+                          <span class="var">var</span> r = <span class="str">"ULTRA COOL UPPERCASE THING!"</span>
+                          <span class="var">var</span> ls =<span class="str"> "rather long strings are annoying, so therefore I developed syntatical, to make longer strings shorter with less code. I also let this app do other things"</span>
+
+                          <span class="pre">s</span>.<span class="func">write</span><span class="par">('one')</span>
+                          <span class="pre">s</span>.<span class="func">print</span><span class="par">('two')</span>
+                          <span class="pre">s</span>.<span class="func">printf<span class="par">('three')</span>
+
+                              <span class="pre">s</span>.<span class="func">rand_num<span class="par">(1000)</span>
+                          <span class="pre">s</span>.<span class="func">rand<span class="par">(e)</span>
+
+                              <span class="pre">s</span>.<span class="func">stop_app<span class="par">()</span>
+
+                              <span class="pre">s</span>.<span class="func">lower_all<span class="par">(r)</span>
+
+                          <span class="pre">s</span>.<span class="func">limit</span><span class="par">(ls, 5)</span>
+
+                              <span class="pre">s</span>.<span class="func">upper_all<span class="par">(ls)</span>
+
+                              <span class="pre">s</span>.<span class="func">str_split<span class="par">(ls)</span>
+
+                          <span class="pre">s</span>.<span class="func">match</span><span class="par">(ls, /string/)</span>
+                        </code>
+                    </div>
+                
                 </div>
                 <hr>
                 <div id="kamojipy">
